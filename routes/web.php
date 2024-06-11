@@ -37,6 +37,7 @@ Route::get('schedule-list', function () {
     return '<h1>Cache facade value cleared</h1>';
 });
 */
+
 // Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
