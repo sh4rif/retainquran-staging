@@ -38,7 +38,6 @@ Route::get('schedule-list', function () {
 });
 */
 // Auth::routes();
-
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 // Route::get('/auth/redirect', [App\Http\Controllers\API\LoginController::class, 'googleRedirect']);
 // Route::get('/google-callback', [App\Http\Controllers\API\LoginController::class, 'googleLogin'])->name('google-callback');
