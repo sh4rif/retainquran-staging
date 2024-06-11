@@ -18,3 +18,5 @@
    - 'us-central1'
  images:
  - 'gcr.io/retain-quran/github.com/mbarkhad1/retainquran-staging:$COMMIT_SHA'
+ options:
+  logging: CLOUD_LOGGING_ONLY
