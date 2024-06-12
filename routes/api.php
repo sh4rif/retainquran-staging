@@ -18,6 +18,12 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+Route::get('testing', function () {
+    return response([
+        'message' => 'staging test',
+    ]);
+});
+
 Route::post('/checkUser', [App\Http\Controllers\API\CheckActiveUserController::class, 'check_user']);
 Route::post('/logout', [App\Http\Controllers\API\LoginController::class, 'logout_user']);
 Route::post('/register', [App\Http\Controllers\API\RegisterController::class, 'createUser'])->name('register');
